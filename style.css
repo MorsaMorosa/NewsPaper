@@ -15,7 +15,7 @@ a {
 /* Nav */
 
 nav {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +47,16 @@ nav {
   margin-left: 40px;
   background: none;
 }
+#day {
+padding-left: 20px;
+margin-bottom: 5px;
+}
+
+#time {
+  color: rgb(118, 122, 122);
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
 
 img {
   width: 300px;
@@ -76,11 +86,17 @@ img {
 .news__main h1{
     font-size: 40px;
     margin-bottom: 20px;
+    
 }
 .news__general article img{
     width: 100%;
     
 }
+
+.news__main h2 {
+  margin: 20px 0 ;
+}
+
 img{
     transition: 0.25s;
     cursor: pointer;
@@ -97,6 +113,10 @@ margin-bottom: 10px;
 .news__general p{
     margin-bottom: 10px;
 }
+
+.tech__p{
+  margin-bottom: 30px;
+}
 footer{
     width:  100vw;
     height: 100px;
@@ -104,4 +124,5 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: rgb(243, 243, 243);
+    margin-top: 30px;
 }
